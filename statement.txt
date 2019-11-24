@@ -1,0 +1,11 @@
+What didn't work:
+
+Initially, we had designed the state machine in a always block which worked on positive edge of the clock. This didn't work as the signals were changing values in middle of a cycle and were getting unexpected outputs. This lead us to redesigning the state machine which worked when any values changed. That way we ensured that the values we were getting were correct. 
+
+The design we made took many cycles than expected which lead to us redesigning the calculation part.
+
+what worked:
+1. State machine in always @ (posedge clk).
+2. pipelined multiplier.
+3. a faster more optimised calculation logic.
+4. Completed the design with a positive slack.

@@ -1,0 +1,1044 @@
+                                        
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+                                        
+              Version K-2015.06-SP5-1 for linux64 - Feb 26, 2016 
+                                        
+                    Copyright (c) 1988 - 2016 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25
+read_sverilog nn3.v
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/gtech.db'
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/standard.sldb'
+  Loading link library 'tc240c'
+  Loading link library 'gtech'
+Loading sverilog file '/home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:451: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:452: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:453: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:454: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:455: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:456: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:457: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:458: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:459: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:460: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:461: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:462: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:464: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:465: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:466: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:467: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:468: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:469: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:470: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:471: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:472: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:473: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:474: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:475: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:476: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:477: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:478: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:479: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:480: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:481: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:482: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:483: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:484: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:485: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:486: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:487: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:488: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:489: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:490: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:225: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:226: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:269: signed to unsigned assignment occurs. (VER-318)
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:312: signed to unsigned assignment occurs. (VER-318)
+
+Statistics for case statements in always block at line 95 in file
+	'/home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           131            |     no/auto      |
+|           255            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine nn3 line 404 in file
+		'/home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataout_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pushout_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     stopout_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    lastBout_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    firstBout_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    dataBout_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      mul01_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      mul02_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       add_reg       | Flip-flop |  72   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    memwrite_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|  memwriteaddr_reg   | Flip-flop |  13   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  memwritedata_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   firstAaddr_reg    | Flip-flop |  13   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   firstBaddr_reg    | Flip-flop |  13   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   no_outputs_reg    | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    no_inputs_reg    | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    op_offset_reg    | Flip-flop |  13   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     opcode_reg      | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   neuron_last_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      hold_reg       | Flip-flop |  26   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  no_iterations_reg  | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  first_counter_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     rport0_reg      | Flip-flop |  13   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     rport1_reg      | Flip-flop |  13   |  Y  | N  | Y  | N  | N  | N  | N  |
+| second_counter_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  neuron_addr1_reg   | Flip-flop |  13   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  neuron_addr2_reg   | Flip-flop |  13   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     counter_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  control_word_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   op_counter_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Warning:  /home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.v:396: Netlist for always block is empty. (ELAB-985)
+Presto compilation completed successfully.
+Current design is now '/home/013711074@SJSUAD.SJSU.EDU/nn3/nn3.db:nn3'
+Loaded 1 design.
+Current design is 'nn3'.
+nn3
+create_clock clk -name clk -period 3.0
+1
+set_propagated_clock clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_clock_uncertainty 0.25 clk
+1
+set_propagated_clock clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_output_delay 0.5 -clock clk [all_outputs]
+1
+set all_inputs_wo_rst_clk [remove_from_collection [remove_from_collection [all_inputs] [get_port clk]] [get_port rst]]
+{sel RW addr[12] addr[11] addr[10] addr[9] addr[8] addr[7] addr[6] addr[5] addr[4] addr[3] addr[2] addr[1] addr[0] din[31] din[30] din[29] din[28] din[27] din[26] din[25] din[24] din[23] din[22] din[21] din[20] din[19] din[18] din[17] din[16] din[15] din[14] din[13] din[12] din[11] din[10] din[9] din[8] din[7] din[6] din[5] din[4] din[3] din[2] din[1] din[0] pushA dataA[31] dataA[30] dataA[29] dataA[28] dataA[27] dataA[26] dataA[25] dataA[24] dataA[23] dataA[22] dataA[21] dataA[20] dataA[19] dataA[18] dataA[17] dataA[16] dataA[15] dataA[14] dataA[13] dataA[12] dataA[11] dataA[10] dataA[9] dataA[8] dataA[7] dataA[6] dataA[5] dataA[4] dataA[3] dataA[2] dataA[1] dataA[0] firstA lastA stopB mrdata0[31] mrdata0[30] mrdata0[29] mrdata0[28] mrdata0[27] mrdata0[26] mrdata0[25] mrdata0[24] mrdata0[23] mrdata0[22] mrdata0[21] mrdata0[20] mrdata0[19] mrdata0[18] mrdata0[17] mrdata0[16] mrdata0[15] ...}
+set_driving_cell -lib_cell CND2X1 $all_inputs_wo_rst_clk
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+1
+set_input_delay 0.6 -clock clk $all_inputs_wo_rst_clk
+1
+set_output_delay 0.6 -clock clk [all_outputs]
+1
+set_fix_hold [ get_clocks clk ]
+1
+set_output_delay 0.3 -clock clk [all_outputs]
+1
+set_max_delay 2.8 -from [all_inputs] -to [all_outputs]
+1
+compile_ultra
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | K-2015.06-DWBB_201506.5.1 |   *     |
+| Licensed DW Building Blocks        | I-2013.12-DWBB_201312.5 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 13 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+  Simplifying Design 'nn3'
+
+Loaded alib file './alib-52/tc240c.db_NOMIN25.alib'
+  Building model 'DW01_NAND2'
+Information: Ungrouping 0 of 1 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'nn3'
+Information: Added key list 'DesignWare' to design 'nn3'. (DDB-72)
+Information: The register 'state_reg[5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'state_reg[4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'state_reg[3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[2]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[8]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[9]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[10]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[11]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[12]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[13]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[14]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[15]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[16]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[17]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[18]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[19]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[20]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[21]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[22]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[23]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[24]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[25]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[26]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[27]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[28]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[29]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[30]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[31]' is a constant and will be removed. (OPT-1206)
+ Implement Synthetic for 'nn3'.
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/dw_foundation.sldb'
+  Processing 'nn3_DW02_mult_2_stage_J1_0'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Warning: Main library 'tc240c' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: The register 'neuron_addr2_reg[0]' is a constant and will be removed. (OPT-1206)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Checking pipeline property of cell multiplier00 (design nn3_DW02_mult_2_stage_J1_0). (RTDC-137)
+Information: cell multiplier00 (design nn3_DW02_mult_2_stage_J1_0) is a pipeline. (RTDC-139)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+  Mapping Optimization (Phase 1)
+  Mapping Optimization (Phase 2)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+  Retiming nn3_DW02_mult_2_stage_J1_0 (multiplier00)
+  Preferred flip-flop is CFD2XL with setup = 0.21
+
+
+  Retiming base-clock clk, rising edge.
+  Beginning minimum period retiming ...
+  ... minimum period retiming done.
+  Beginning minimum area retiming step 1 ...
+  ... minimum area retiming step 1 done.
+  Beginning minimum area retiming step 2 ...
+  5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100% 
+  ... minimum area retiming step 2 done.
+  Beginning minimum area retiming step 3 ...
+  10% 20% 30% 40% 50% 60% ... 100% 
+  ... minimum area retiming step 3 done.
+  Beginning final register move ...
+  ... final register move done.
+  Lower bound estimate = 3.63
+  Critical path length = 3.63
+  Clock correction = 0.94 (clock-to-Q delay = 0.48, setup = 0.21, uncertainty = 0.25)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+  Mapping Optimization (Phase 3)
+  Mapping Optimization (Phase 4)
+  Mapping Optimization (Phase 5)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:31   20382.0      0.87     193.4       0.0 add_reg[67]/D                0.0000      0.00  
+    0:00:31   20382.0      0.87     193.4       0.0 add_reg[67]/D                0.0000      0.00  
+    0:00:33   20337.5      0.85     186.9       0.0 add_reg[53]/D                0.0000      0.00  
+
+  Beginning Constant Register Removal
+  -----------------------------------
+Information: The register 'op_counter_reg[23]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[22]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[21]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[20]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[19]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[18]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[17]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[16]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[15]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[14]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[13]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[12]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[11]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[10]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[9]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[8]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[31]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[30]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[29]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[28]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[27]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[26]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[25]' is a constant and will be removed. (OPT-1206)
+Information: The register 'op_counter_reg[24]' is a constant and will be removed. (OPT-1206)
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+
+  Beginning Isolate Ports
+  -----------------------
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:39   13564.0      1.27     259.0       0.0                              0.0000      0.00  
+    0:00:46   14983.5      0.66     150.4       0.0                              0.0000      0.00  
+    0:00:46   14983.5      0.66     150.4       0.0                              0.0000      0.00  
+    0:00:47   14973.5      0.66     150.4    2959.8                              0.0000      0.00  
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:00:50   14936.0      0.67     145.4    2959.8                              0.0000      0.00  
+    0:00:51   14910.5      0.66     144.3    2959.8                              0.0000      0.00  
+    0:00:51   14874.0      0.66     139.5    2959.8                              0.0000      0.00  
+    0:00:51   14874.0      0.66     139.5    2959.8                              0.0000      0.00  
+    0:01:01   15623.5      0.61     130.7    2959.8                              0.0000      0.00  
+    0:01:01   15623.5      0.61     130.7    2959.8                              0.0000      0.00  
+    0:01:01   15625.0      0.61     130.4    2959.8                              0.0000      0.00  
+    0:01:01   15625.0      0.61     130.4    2959.8                              0.0000      0.00  
+    0:01:03   15821.0      0.60     130.0    2959.8                              0.0000      0.00  
+    0:01:03   15821.0      0.60     130.0    2959.8                              0.0000      0.00  
+    0:01:13   16365.0      0.52     115.1    2959.8                              0.0000      0.00  
+    0:01:13   16365.0      0.52     115.1    2959.8                              0.0000      0.00  
+    0:01:14   16365.0      0.52     115.1    2959.8                              0.0000      0.00  
+    0:01:14   16365.0      0.52     115.1    2959.8                              0.0000      0.00  
+    0:01:14   16400.5      0.51     113.4    2959.8                              0.0000      0.00  
+    0:01:14   16400.5      0.51     113.4    2959.8                              0.0000      0.00  
+    0:01:16   16408.5      0.51     112.7    2959.8                              0.0000      0.00  
+    0:01:16   16408.5      0.51     112.7    2959.8                              0.0000      0.00  
+    0:01:22   16770.5      0.49     107.9    2959.8                              0.0000      0.00  
+    0:01:22   16770.5      0.49     107.9    2959.8                              0.0000      0.00  
+    0:01:23   16770.5      0.49     107.9    2959.8                              0.0000      0.00  
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:01:23   16770.5      0.49     107.9    2959.8                              0.0000      0.00  
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+    0:01:25   16760.0      0.47     101.8       0.0 add_reg[71]/D                0.0000      0.00  
+    0:01:25   16755.0      0.47     100.8       0.0                              0.0000      0.00  
+    0:01:30   16853.5      0.46      99.6       0.0                              0.0000      0.00  
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+    0:01:32   16871.5      0.45      96.8       0.0 multiplier00/mult_x_1/clk_r_REG134_S1/D    0.0000      0.00  
+    0:01:33   16899.5      0.45      96.0       0.0                              0.0000      0.00  
+    0:01:38   17228.0      0.45      94.4       0.0                              0.0000      0.00  
+    0:01:38   17228.0      0.45      94.4       0.0                              0.0000      0.00  
+    0:01:39   17110.0      0.45      93.7       0.0                              0.0000      0.00  
+    0:01:39   17110.0      0.45      93.7       0.0                              0.0000      0.00  
+    0:01:39   17110.0      0.45      93.7       0.0                              0.0000      0.00  
+    0:01:40   17110.0      0.45      93.7       0.0                              0.0000      0.00  
+    0:01:40   17114.5      0.45      93.7       0.0                              0.0000      0.00  
+    0:01:40   17114.5      0.45      93.7       0.0                              0.0000      0.00  
+    0:01:42   17149.0      0.45      93.0       0.0                              0.0000      0.00  
+    0:01:42   17149.0      0.45      93.0       0.0                              0.0000      0.00  
+    0:01:45   17173.0      0.43      90.8       0.0                              0.0000      0.00  
+    0:01:45   17173.0      0.43      90.8       0.0                              0.0000      0.00  
+    0:01:46   17179.0      0.43      90.8       0.0                              0.0000      0.00  
+    0:01:46   17179.0      0.43      90.8       0.0                              0.0000      0.00  
+    0:01:48   17234.0      0.43      90.5       0.0                              0.0000      0.00  
+    0:01:48   17234.0      0.43      90.5       0.0                              0.0000      0.00  
+    0:01:48   17234.0      0.43      90.5       0.0                              0.0000      0.00  
+    0:01:48   17234.0      0.43      90.5       0.0                              0.0000      0.00  
+    0:01:49   17234.0      0.43      90.5       0.0                              0.0000      0.00  
+    0:01:49   17234.0      0.43      90.5       0.0                              0.0000      0.00  
+    0:01:49   17234.0      0.43      90.5       0.0                              0.0000      0.00  
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:01:49   17234.0      0.43      90.5       0.0                              0.0000      0.00  
+    0:01:51   16763.5      0.43      84.5       0.0                              0.0000      0.00  
+    0:01:52   16704.5      0.43      83.7       0.0                              0.0000      0.00  
+    0:01:52   16669.0      0.43      83.8       0.0                              0.0000      0.00  
+    0:01:52   16669.0      0.43      83.8       0.0                              0.0000      0.00  
+    0:01:53   16655.5      0.43      82.9       0.0                              0.0000      0.00  
+    0:01:53   16496.5      0.43      82.2       0.0                              0.0000      0.00  
+    0:02:04   16857.0      0.40      79.4       0.0                              0.0000      0.00  
+    0:02:06   16764.0      0.40      77.5       0.0                              0.0000      0.00  
+    0:02:06   16763.0      0.40      77.5       0.0                              0.0000      0.00  
+    0:02:06   16765.5      0.40      77.5       0.0                              0.0000      0.00  
+    0:02:07   16281.0      0.40      76.6       0.0                              0.0000      0.00  
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Warning: Main library 'tc240c' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1
+create_clock clk -name clk -period 4.0
+1
+update_timing
+Information: Updating design information... (UID-85)
+1
+report_timing -max_paths 5
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 5
+Design : nn3
+Version: K-2015.06-SP5-1
+Date   : Fri Dec  7 12:16:40 2018
+****************************************
+
+Operating Conditions: NOMIN25   Library: tc240c
+Wire Load Model Mode: top
+
+  Startpoint: no_iterations_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: multiplier00/mult_x_1/clk_r_REG22_S1
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  no_iterations_reg[6]/CP (CFD2QX1)                       0.00       0.00 r
+  no_iterations_reg[6]/Q (CFD2QX1)                        0.31       0.31 f
+  U2978/Z (CIVX2)                                         0.05       0.36 r
+  U2695/Z (CND2X2)                                        0.07       0.43 f
+  U2745/Z (CND2X2)                                        0.05       0.48 r
+  U2744/Z (CND2X2)                                        0.07       0.55 f
+  U2869/Z (CND2X2)                                        0.05       0.61 r
+  U2868/Z (CIVX2)                                         0.04       0.65 f
+  U2867/Z (CND3X2)                                        0.05       0.70 r
+  U2870/Z (CND3X2)                                        0.10       0.80 f
+  U2907/Z (CNR2X2)                                        0.08       0.88 r
+  U2998/Z (CND2X2)                                        0.11       0.98 f
+  U2686/Z (CIVX2)                                         0.08       1.06 r
+  U1336/Z0 (CIVDX4)                                       0.10       1.16 f
+  U2940/Z (CND2XL)                                        0.08       1.24 r
+  U3317/Z (CND2IX1)                                       0.09       1.33 f
+  multiplier00/B[10] (nn3_DW02_mult_2_stage_J1_0)         0.00       1.33 f
+  multiplier00/U2629/Z (CNIVX4)                           0.16       1.48 f
+  multiplier00/U2519/Z (CENXL)                            0.24       1.73 f
+  multiplier00/U729/Z (COND2X2)                           0.14       1.87 r
+  multiplier00/U728/Z (CEO3X2)                            0.46       2.33 f
+  multiplier00/U1195/Z (CENX2)                            0.13       2.46 r
+  multiplier00/U1273/Z (CENX2)                            0.16       2.62 r
+  multiplier00/U2073/Z (CENX1)                            0.16       2.78 r
+  multiplier00/U2496/Z (CENXL)                            0.16       2.94 r
+  multiplier00/mult_x_1/clk_r_REG22_S1/D (CFD1QX2)        0.00       2.94 r
+  data arrival time                                                  2.94
+
+  clock clk (rise edge)                                   4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  clock uncertainty                                      -0.25       3.75
+  multiplier00/mult_x_1/clk_r_REG22_S1/CP (CFD1QX2)       0.00       3.75 r
+  library setup time                                     -0.21       3.54
+  data required time                                                 3.54
+  --------------------------------------------------------------------------
+  data required time                                                 3.54
+  data arrival time                                                 -2.94
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.60
+
+
+  Startpoint: no_iterations_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: multiplier00/mult_x_1/clk_r_REG20_S1
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  no_iterations_reg[2]/CP (CFD2QX1)                       0.00       0.00 r
+  no_iterations_reg[2]/Q (CFD2QX1)                        0.30       0.30 r
+  U2761/Z (CIVX2)                                         0.08       0.38 f
+  U2875/Z (CNR2X2)                                        0.07       0.45 r
+  U2873/Z (COND4CX1)                                      0.09       0.54 f
+  U2777/Z (CND3X2)                                        0.06       0.60 r
+  U2929/Z (CND3X2)                                        0.11       0.70 f
+  U2928/Z (CIVX2)                                         0.05       0.75 r
+  U2997/Z (CND3X2)                                        0.10       0.85 f
+  U2998/Z (CND2X2)                                        0.09       0.94 r
+  U2686/Z (CIVX2)                                         0.09       1.02 f
+  U1336/Z0 (CIVDX4)                                       0.10       1.12 r
+  U3336/Z (CND2X1)                                        0.10       1.23 f
+  U3337/Z (CND2X2)                                        0.09       1.32 r
+  multiplier00/A[31] (nn3_DW02_mult_2_stage_J1_0)         0.00       1.32 r
+  multiplier00/U2566/Z (CEOX2)                            0.18       1.50 r
+  multiplier00/U615/Z (CND2X4)                            0.19       1.69 f
+  multiplier00/U614/Z (COND2X2)                           0.19       1.88 r
+  multiplier00/U1686/Z (CENX2)                            0.20       2.08 r
+  multiplier00/U1828/Z (CENX2)                            0.17       2.25 r
+  multiplier00/U3174/Z (CENX2)                            0.15       2.40 r
+  multiplier00/U3806/CO (CFA1X1)                          0.22       2.62 r
+  multiplier00/U1992/Z (CENX1)                            0.15       2.78 r
+  multiplier00/U1372/Z (CENXL)                            0.16       2.94 r
+  multiplier00/mult_x_1/clk_r_REG20_S1/D (CFD1QX2)        0.00       2.94 r
+  data arrival time                                                  2.94
+
+  clock clk (rise edge)                                   4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  clock uncertainty                                      -0.25       3.75
+  multiplier00/mult_x_1/clk_r_REG20_S1/CP (CFD1QX2)       0.00       3.75 r
+  library setup time                                     -0.21       3.54
+  data required time                                                 3.54
+  --------------------------------------------------------------------------
+  data required time                                                 3.54
+  data arrival time                                                 -2.94
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.60
+
+
+  Startpoint: no_iterations_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: multiplier00/mult_x_1/clk_r_REG11_S1
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  no_iterations_reg[6]/CP (CFD2QX1)                       0.00       0.00 r
+  no_iterations_reg[6]/Q (CFD2QX1)                        0.31       0.31 f
+  U2978/Z (CIVX2)                                         0.05       0.36 r
+  U2695/Z (CND2X2)                                        0.07       0.43 f
+  U2745/Z (CND2X2)                                        0.05       0.48 r
+  U2744/Z (CND2X2)                                        0.07       0.55 f
+  U2869/Z (CND2X2)                                        0.05       0.61 r
+  U2868/Z (CIVX2)                                         0.04       0.65 f
+  U2867/Z (CND3X2)                                        0.05       0.70 r
+  U2870/Z (CND3X2)                                        0.10       0.80 f
+  U2907/Z (CNR2X2)                                        0.08       0.88 r
+  U2998/Z (CND2X2)                                        0.11       0.98 f
+  U2686/Z (CIVX2)                                         0.08       1.06 r
+  U1336/Z0 (CIVDX4)                                       0.10       1.16 f
+  U3347/Z (CND2X2)                                        0.07       1.23 r
+  U1304/Z (CND2X4)                                        0.10       1.33 f
+  multiplier00/A[23] (nn3_DW02_mult_2_stage_J1_0)         0.00       1.33 f
+  multiplier00/U619/Z (CIVX8)                             0.05       1.38 r
+  multiplier00/U2082/Z (CNIVX4)                           0.13       1.51 r
+  multiplier00/U793/Z (CIVX8)                             0.07       1.58 f
+  multiplier00/U2260/Z (CENX2)                            0.12       1.70 r
+  multiplier00/U3072/Z (COND2X1)                          0.15       1.85 f
+  multiplier00/U3295/S (CFA1X1)                           0.41       2.26 r
+  multiplier00/U1727/Z (CENX1)                            0.16       2.42 r
+  multiplier00/U954/Z (CENX1)                             0.18       2.60 r
+  multiplier00/U2414/Z (CENX1)                            0.17       2.77 r
+  multiplier00/U514/Z (CENXL)                             0.17       2.93 r
+  multiplier00/mult_x_1/clk_r_REG11_S1/D (CFD1QX2)        0.00       2.93 r
+  data arrival time                                                  2.93
+
+  clock clk (rise edge)                                   4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  clock uncertainty                                      -0.25       3.75
+  multiplier00/mult_x_1/clk_r_REG11_S1/CP (CFD1QX2)       0.00       3.75 r
+  library setup time                                     -0.21       3.54
+  data required time                                                 3.54
+  --------------------------------------------------------------------------
+  data required time                                                 3.54
+  data arrival time                                                 -2.93
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.60
+
+
+  Startpoint: no_iterations_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: multiplier00/mult_x_1/clk_r_REG114_S1
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  no_iterations_reg[6]/CP (CFD2QX1)                       0.00       0.00 r
+  no_iterations_reg[6]/Q (CFD2QX1)                        0.31       0.31 f
+  U2978/Z (CIVX2)                                         0.05       0.36 r
+  U2695/Z (CND2X2)                                        0.07       0.43 f
+  U2745/Z (CND2X2)                                        0.05       0.48 r
+  U2744/Z (CND2X2)                                        0.07       0.55 f
+  U2869/Z (CND2X2)                                        0.05       0.61 r
+  U2868/Z (CIVX2)                                         0.04       0.65 f
+  U2867/Z (CND3X2)                                        0.05       0.70 r
+  U2870/Z (CND3X2)                                        0.10       0.80 f
+  U2907/Z (CNR2X2)                                        0.08       0.88 r
+  U2998/Z (CND2X2)                                        0.11       0.98 f
+  U2686/Z (CIVX2)                                         0.08       1.06 r
+  U1336/Z1 (CIVDX4)                                       0.15       1.21 r
+  U1285/Z (CIVX2)                                         0.08       1.29 f
+  U2758/Z (CND2X2)                                        0.06       1.35 r
+  U2810/Z (CND2X4)                                        0.14       1.49 f
+  multiplier00/B[18] (nn3_DW02_mult_2_stage_J1_0)         0.00       1.49 f
+  multiplier00/U1214/Z (CENX2)                            0.15       1.64 f
+  multiplier00/U2198/Z (COND2X2)                          0.16       1.80 r
+  multiplier00/U1598/Z (CENX1)                            0.19       1.99 r
+  multiplier00/U1225/Z (CENX1)                            0.21       2.20 r
+  multiplier00/U480/Z (CENX2)                             0.18       2.38 r
+  multiplier00/U479/Z (CENX2)                             0.17       2.55 r
+  multiplier00/U1374/Z (COND1X2)                          0.10       2.64 f
+  multiplier00/U3549/Z (CND2X2)                           0.06       2.70 r
+  multiplier00/U3550/Z (CEO3X1)                           0.22       2.92 f
+  multiplier00/mult_x_1/clk_r_REG114_S1/D (CFD1QX2)       0.00       2.92 f
+  data arrival time                                                  2.92
+
+  clock clk (rise edge)                                   4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  clock uncertainty                                      -0.25       3.75
+  multiplier00/mult_x_1/clk_r_REG114_S1/CP (CFD1QX2)      0.00       3.75 r
+  library setup time                                     -0.22       3.53
+  data required time                                                 3.53
+  --------------------------------------------------------------------------
+  data required time                                                 3.53
+  data arrival time                                                 -2.92
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.60
+
+
+  Startpoint: no_iterations_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: multiplier00/mult_x_1/clk_r_REG89_S1
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  no_iterations_reg[2]/CP (CFD2QX1)                       0.00       0.00 r
+  no_iterations_reg[2]/Q (CFD2QX1)                        0.30       0.30 r
+  U2761/Z (CIVX2)                                         0.08       0.38 f
+  U2875/Z (CNR2X2)                                        0.07       0.45 r
+  U2873/Z (COND4CX1)                                      0.09       0.54 f
+  U2777/Z (CND3X2)                                        0.06       0.60 r
+  U2929/Z (CND3X2)                                        0.11       0.70 f
+  U2928/Z (CIVX2)                                         0.05       0.75 r
+  U2997/Z (CND3X2)                                        0.10       0.85 f
+  U2998/Z (CND2X2)                                        0.09       0.94 r
+  U2686/Z (CIVX2)                                         0.09       1.02 f
+  U1336/Z0 (CIVDX4)                                       0.10       1.12 r
+  U2940/Z (CND2XL)                                        0.11       1.23 f
+  U3317/Z (CND2IX1)                                       0.06       1.30 r
+  multiplier00/B[10] (nn3_DW02_mult_2_stage_J1_0)         0.00       1.30 r
+  multiplier00/U2629/Z (CNIVX4)                           0.17       1.47 r
+  multiplier00/U475/Z (CNIVX4)                            0.13       1.60 r
+  multiplier00/U523/Z (CENX1)                             0.15       1.75 r
+  multiplier00/U3195/Z (COND2X1)                          0.14       1.89 f
+  multiplier00/U1906/Z (CENX1)                            0.19       2.08 f
+  multiplier00/U1905/Z (CENX2)                            0.15       2.23 f
+  multiplier00/U3857/S (CFA1X1)                           0.38       2.61 r
+  multiplier00/U2444/Z (CENX1)                            0.16       2.78 r
+  multiplier00/U1297/Z (CENX1)                            0.17       2.94 r
+  multiplier00/mult_x_1/clk_r_REG89_S1/D (CFD1QX2)        0.00       2.94 r
+  data arrival time                                                  2.94
+
+  clock clk (rise edge)                                   4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  clock uncertainty                                      -0.25       3.75
+  multiplier00/mult_x_1/clk_r_REG89_S1/CP (CFD1QX2)       0.00       3.75 r
+  library setup time                                     -0.21       3.54
+  data required time                                                 3.54
+  --------------------------------------------------------------------------
+  data required time                                                 3.54
+  data arrival time                                                 -2.94
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.60
+
+
+1
+write -hierarchy -format verilog -output nn3_gates.v
+Writing verilog file '/home/013711074@SJSUAD.SJSU.EDU/nn3/nn3_gates.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+1
+quit
+
+Thank you...
